@@ -6,12 +6,33 @@
     <title>Badan Perwakian Mahasiswa Universitas Ma Chung</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="icon" href="assets/img/logo.png" type="image/x-icon"/>
+
+    <style>
+      .jumbotron {
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(79,190,60,1) 50%, rgba(4,59,114,1) 92%);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 25%;
+        color: #fff;
+        height: 250px;
+        display: flex;
+        align-items: center	;
+        justify-content: center;
+        text-align: center;
+        border-radius: 25px;
+      }
+      .navbarbpmu {
+        background: rgb(255,255,255);
+        background: linear-gradient(132deg, rgba(255,255,255,1) 0%, rgba(79,190,60,0.217546393557423) 50%, rgba(4,59,114,0.2259497549019608) 92%);
+      }
+   </style>
   </head>
 
   <body>
     
    <!-- Nav Bar Start -->
-    <nav class="navbar sticky-top shadow-sm navbar-expand-lg bg-body-tertiary bg-light">
+    <nav class="navbar sticky-top shadow-sm navbar-expand-lg bg-body-tertiary navbarbpmu bg-white">
       <div class="container">
         <a class="navbar-brand fw-bold" href="index.html">
           <img src="assets/img/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center"> BPMU Ma Chung
@@ -41,8 +62,13 @@
       </div>
     </nav>
   
-    <div class="container">
-      <div class="row">
+    <section class="py-5">
+      <div class="container px-5 my-5">
+          <div class="container mb-5">
+            <h1 class="fw-bold text-center">About BPMU Ma Chung</h1>
+          </div>
+
+      <div class="row p-4">
       <div class="col-lg-4 mt-3">
         <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
           <nav class="nav nav-pills flex-column">
@@ -175,7 +201,6 @@
                   </div>
               </div>
           </div>
-      </section>
           </div>
           <div id="item-3">
             <h4>Anggota BPMU Periode 2023-2024</h4>
@@ -186,6 +211,9 @@
     </div>
   </div>
   </div>
+  </div>
+  </section>
+  
 
  <!-- Footer-->
 <footer class="bg-dark py-4 mt-auto">
